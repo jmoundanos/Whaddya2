@@ -90,6 +90,10 @@
         {
             "id": 878,
             "name": "Science Fiction"
+        },
+        {
+            "id": 18,
+            "name": "Drama"      
         }
     ],
     "overview": "A rogue band of resistance fighters unite for a mission to steal the Death Star plans and bring a new hope to the galaxy.",

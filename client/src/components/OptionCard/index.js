@@ -26,6 +26,14 @@ class OptionCard extends Component {
       </div>
       <h4 title={this.props.title}>{this.props.title}</h4>
     <h6>Genres: Action, Science Fiction</h6>
+
+    {/* {this.props.genres.length (
+            <div>
+            {this.props.genres.map((genre) =>(
+              <h6 genre={genre.name}>{genre.name}</h6>
+            ))}
+            </div>
+          )}  */}
     <h6 vote_average={this.props.vote_average}>Vote Average: {this.props.vote_average}</h6>
     <h6>Overview:</h6>
     <p overview={this.props.overview}>{this.props.overview}</p>
