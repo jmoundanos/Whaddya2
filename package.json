@@ -1,7 +1,7 @@
 {
   "name": "whaddya2",
   "version": "1.0.0",
-  "description": "",
+  "description": "A tinder-like movie matching game",
   "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -18,7 +18,7 @@
     "type": "git",
     "url": "git+https://github.com/jmoundanos/Whaddya2.git"
   },
-  "author": "",
+  "author": "Jennifer",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jmoundanos/Whaddya2/issues"
@@ -33,14 +33,14 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-jwt": "^5.3.3",
-    "firebase": "^7.14.4",
+    "firebase": "^7.24.0",
     "firebase-admin": "^8.12.1",
     "formidable": "^1.2.2",
     "history": "^4.10.1",
     "http-proxy-middleware": "^1.0.3",
     "jwks-rsa": "^1.8.0",
     "mongodb": "^3.5.7",
-    "mongoose": "^5.9.10",
+    "mongoose": "^5.10.10",
     "react-bootstrap": "^1.0.1",
     "react-grid-system": "^6.3.1",
     "react-router-dom": "^5.2.0",
